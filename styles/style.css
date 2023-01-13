@@ -25,6 +25,12 @@ All styles for top-player
     border-radius: 5px;
 }
 
+.section-title{
+    margin-left: 30px;
+    font-weight: 500;
+    color: #562EFF;
+}
+
 .top-player{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -32,14 +38,7 @@ All styles for top-player
     margin-left: 30px;
     margin-top: 33px;
 }
-.section-title{
-    margin-left: 30px;
-    font-weight: 500;
-    color: #562EFF;
-    
-   
 
-}
 .player-image{
     display: flex;
     gap: 16px;
@@ -49,4 +48,9 @@ All styles for top-player
     Width:56px;
     Height:56px;
 
+}
+.hline{
+    width: 807px;
+    height: 0px;
+    border: 1px solid #D1D1D1;
 }
