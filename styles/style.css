@@ -1,0 +1,23 @@
+/* -------------------------------
+All styles for leaderboard 
+---------------------------------*/
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------------------
+All styles for top-player 
+--------------------------*/
+.player-image{
+    display: flex;
+}
+
+.player-image img{
+    Width:56px;
+    Height:56px;
+
+}
