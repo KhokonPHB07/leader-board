@@ -4,27 +4,45 @@ All styles for leaderboard
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common styles */
+/* common styles and utilities */
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
 }
+.container{
+    display: flex;
+    justify-content: center;
 
+}
 /* -------------------------
 All styles for top-player 
 --------------------------*/
+
 .top-player-section{
     Width:870px;
     Height:679px;
     background: #FFFFFF;
     border-radius: 5px;
 }
+
 .top-player{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    row-gap: 29px;
+    margin-left: 30px;
+    margin-top: 33px;
+}
+.section-title{
+    margin-left: 30px;
+    font-weight: 500;
+    color: #562EFF;
+    
+   
+
 }
 .player-image{
     display: flex;
+    gap: 16px;
 }
 
 .player-image img{
