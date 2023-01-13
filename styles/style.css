@@ -12,6 +12,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 
 }
 /* -------------------------
@@ -53,4 +54,18 @@ All styles for top-player
     width: 807px;
     height: 0px;
     border: 1px solid #D1D1D1;
+}
+
+/* ----------------
+style for section-02 
+-----------------*/
+
+.top-blog{
+    display: flex;
+    
+}
+
+.top-blog img{
+    width: 177px;
+    height: 117px;
 }
