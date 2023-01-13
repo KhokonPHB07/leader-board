@@ -7,11 +7,22 @@ All styles for leaderboard
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
 }
 
 /* -------------------------
 All styles for top-player 
 --------------------------*/
+.top-player-section{
+    Width:870px;
+    Height:679px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .player-image{
     display: flex;
 }
